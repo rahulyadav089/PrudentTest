@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`excersice 1 component should autocorrect 1`] = `
+<div>
+  <div>
+    <div
+      class="card"
+    >
+      <div
+        class="card-body"
+      >
+        <h5
+          class="card-title"
+        >
+          Auto Correct Checker
+        </h5>
+      </div>
+      <div
+        class="card-body"
+      >
+        <div
+          class="input-group"
+        >
+          <input
+            class="form-control"
+            data-testid="maininput"
+            placeholder="Enter a word"
+            type="text"
+            value=""
+          />
+          <button
+            class="btn btn-success"
+            data-testid="check"
+            type="button"
+          >
+            <div>
+              check if word exist
+            </div>
+          </button>
+        </div>
+      </div>
+      <div
+        class="card-body"
+      >
+        <button
+          class="btn btn-warning"
+          data-testid="reset"
+          type="button"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
